@@ -51,7 +51,7 @@ def main(handles, cycles):
   for fiber in threadList:
     fiber.join()
   
-if __name__ == "__main__":
-  practiceHandles = ['MBTA','qikipedia','dog_rates','IvePetThatDog','GameGrumps','IBM']
-  practiceCycles = [2,3,4,3,2,3]
-  main(practiceHandles,practiceCycles)
+# if __name__ == "__main__":
+#   practiceHandles = ['MBTA','qikipedia','dog_rates','IvePetThatDog','GameGrumps','IBM']
+#   practiceCycles = [2,3,4,3,2,3]
+#   main(practiceHandles,practiceCycles)
