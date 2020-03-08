@@ -38,7 +38,7 @@ def search():
 @app.route('/feedvideo', methods=['GET', 'POST'])
 
 def feedvideo():
-	video_name = username + '_tweetVid.mp4'
+	video_name = SearchForm.username + '_tweetVid.mp4'
 	try:
 		return flask.send_file(video_name)
 	except:
