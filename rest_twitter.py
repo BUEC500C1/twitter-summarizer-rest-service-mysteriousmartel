@@ -40,6 +40,6 @@ def search():
 def feedvideo():
 	video_name = SearchForm.username + '_tweetVid.mp4'
 	try:
-		return flask.send_file(video_name)
+		return send_file(video_name)
 	except:
 		return abort(400, 'Unable to compile video for given handle')
