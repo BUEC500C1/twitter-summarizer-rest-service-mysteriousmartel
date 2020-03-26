@@ -3,7 +3,6 @@ from flask_restful import Resource, Api, reqparse
 from flask_wtf import FlaskForm
 from wtforms import StringField, SubmitField
 from wtforms.validators import DataRequired
-from app import app
 import os
 import tweet_queue as tq
 
@@ -43,3 +42,6 @@ def feedvideo():
 		return send_file(video_name)
 	except:
 		return abort(400, 'Unable to compile video for given handle')
+
+if __name__ == "__main__":
+    app.run(debug = True,host = '0.0.0.0',port = 80)    
