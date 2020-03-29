@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>Search for a user and number of cycles of tweets below</title>
+    </head>
+    <body>
+        <form action="/index" method="post" novalidate>
+            {{ form.hidden_tag() }}
+            <p>
+                {{ form.username.label }}<br>
+                {{ form.username(size=32) }}
+            </p>
+            <p>
+                {{ form.cycles.label }}<br>
+                {{ form.cycles(size=32) }} 
+            </p>
+            <p>{{ form.submit() }}</p>
+        </form>
+    </body>
+</html>
