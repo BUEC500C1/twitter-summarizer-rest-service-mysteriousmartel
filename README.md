@@ -18,7 +18,7 @@ To utilize the code, please check that you have downloaded all of the files in t
 
 When running locally, I personally found it effective to run it as such:
 
-<code>export FLASK_APP=rest_twitter_redux.py
+<code>export FLASK_APP=rest_twitter_redux.py <br>
 flask run</code>
 
 Then I proceeded to use the local host link to begin my search test.
