@@ -23,6 +23,14 @@ When running locally, I personally found it effective to run it as such:
 
 Then I proceeded to use the local host link to begin my search test.
 
+When running on the EC2 server, I ran into installation issues with ffmpeg versus ffmpeg-python. Please be sure to have ffmpeg-python installed on your instance before running. From there, you can run the video maker with:
+
+<code>python3 rest_twitter_redux.py</code>
+
+If using a virtual environment:
+
+<code>sudo python3 rest_twitter_redux.py</code>
+
 ## How to access the RESTful API link
 
 While the instance is active, you can access the API here: http://3.88.72.42
