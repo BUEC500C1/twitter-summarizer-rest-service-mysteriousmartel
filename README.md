@@ -33,4 +33,4 @@ If using a virtual environment:
 
 ## How to access the RESTful API link
 
-While the instance is active, you can access the API here: http://3.88.72.42
+While the instance is active, you can access the API here: http://3.81.93.255
